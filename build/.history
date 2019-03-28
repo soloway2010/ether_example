@@ -1,0 +1,24 @@
+example
+add(1,1)
+account[0]
+t = Token()
+t = Token[0]
+t = Token
+t
+scripts.token.main()
+import scripts.token
+from brownie import *
+import scripts.token
+import scripts.example
+import scripts.Example
+exit()
+accounts
+Example.deploy
+Example
+Example.deploy
+e = Example.deploy()
+e = Example.deploy(accounts[0])
+e.add(1,1)
+e.add(100,1)
+e.add
+exit()
