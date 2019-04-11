@@ -21,11 +21,8 @@ jobs:
     inputs:
       versionSpec: '$(python.version)'
       architecture: 'x64'
-
-  - task: Npm@1
-    inputs:
-      command: custom
-      customCommand: "install -g ganache-cli"
+      
+  - script: "sudo npm install -g ganache-cli"
     displayName: "Install ganache"
 
   - script: bash requirements.sh
